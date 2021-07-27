@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:url('https://media.giphy.com/media/RHIKETUlUINYvV7CAO/giphy.gif');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    background-blend-mode:luminosity;
+}
+
+.bateria{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family:'Fredoka One', cursive ;
+    text-shadow: 1px 1px 2px #FF0000;
+}
+
+h1 {
+    color: #FFF;
+    margin-bottom: 20px;
+    font-family: 'Fredoka One', cursive;
+    padding: 2px;
+    font-size:4vw;
+    text-shadow: 1px 1px 2px #FF0000;   
+}
+.keys {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.key {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #FFF;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.key:hover {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #FFF;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-shadow: 2px 2px 4px #FF0000; 
+}
+
+.key.active {
+    border: 2px solid rgb(255, 255, 131);
+    color: rgb(232, 255, 23);
+    text-shadow: 2px 2px 4px #FF0000; 
+    box-shadow: 2px 2px 4px #FF0000; 
+}
+
+.composer {
+    width: 260px;
+    margin-top: 20px;
+}
+.composer #input {
+    width: 100%;
+    outline: none;
+    font-size: 17px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.composer button {
+    width: 100%;
+    height: 40px;
+    background: none;
+    border: 2px solid #FFF;
+    color: #FFF;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px #FF0000; 
+    transition-duration: .5s;
+}
+.composer button:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 5px #FF0000;
+    font-weight: bold;
+
+}
+
+footer {
+    margin-top: 20px;
+    color: #FFF;
+    font-size: 13px;
+}
+
+@media only screen and (max-width: 600px) {
+    h1{
+    font-size:12vw;
+    }
+}
