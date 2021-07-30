@@ -38,3 +38,4 @@ function playComposition (songArray){
         wait +=250;
     }
 }
+
