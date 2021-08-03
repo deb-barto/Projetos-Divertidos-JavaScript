@@ -51,7 +51,7 @@ function finishQuizz(){
 
     if(points<40){
         document.querySelector('.scoreText1').innerHTML = 'Não foi fácil...';
-        document.querySelector('.scorePct').style.color = '#ff00000';
+        document.querySelector('.scorePct').style.color = '#ff0000';
 
     } else if( points >=40 && points<70 ){
         document.querySelector('.scoreText1').innerHTML = 'Até que ta bom';
