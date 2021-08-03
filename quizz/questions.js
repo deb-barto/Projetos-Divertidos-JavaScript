@@ -15,7 +15,7 @@ let questions = [
             'Lithuania',
             'Ucrania'
         ],
-        answer: 3
+        answer: 2
     },
     {
         question: 'Qual é o nome real da Lady Gaga?',
@@ -24,7 +24,7 @@ let questions = [
             'Katheryn Elizabeth',
             'Stefani Joanne'
         ],
-        answer: 3
+        answer: 2
     },
     {
         question: 'Se Pedro é 10, José é 8 e Ana é 6, por essa mesma lógica Rutiele é:',
@@ -34,7 +34,7 @@ let questions = [
             '14',
             '24'
         ],
-        answer: 3
+        answer: 2
     },
     {
         question: 'Qual dessas comidas possui menos carboidrato a cada 100g?',
@@ -44,7 +44,7 @@ let questions = [
             'feijão',
             'abacate'
         ],
-        answer: 2
+        answer: 1
     },
     {
         question: 'Qual a maior estrela da via lactea?',
@@ -53,7 +53,7 @@ let questions = [
             'Sirius',
             'Westerlund'
         ],
-        answer: 3
+        answer: 2
     },
     {
         question: 'Quantos dentes tem um tubarão branco?',
@@ -62,7 +62,7 @@ let questions = [
             'um tubarão adulto pode ter até 1000 dentes',
             'Pode chegar a 3000 dentes'
         ],
-        answer: 3
+        answer: 2
     },
     {
         question: 'Quantas voltas a terra da em torno do sol em 10 anos?',
@@ -72,7 +72,7 @@ let questions = [
             '25',
             '26'
         ],
-        answer: 2
+        answer: 1
     },
     {
         question: 'Qual destes não é um filosofo Pré-Socraticofi',
@@ -82,7 +82,7 @@ let questions = [
             'Tales de Mileto',
             'Parmênides'
         ],
-        answer: 1
+        answer: 0
     },
     {
         question: 'Qual foi a maxima do Bitcoin até a metade desse ano?',
@@ -91,6 +91,6 @@ let questions = [
             'não passou de 203 mil',
             'mais de 400 mil'
         ],
-        answer:1
+        answer:0
     },
 ];
