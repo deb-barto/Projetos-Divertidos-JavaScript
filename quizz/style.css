@@ -10,7 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #333;
+    background-color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -27,7 +27,7 @@ h1 {
     right: 0;
 }
 .progress--bar {
-    background-color: #00FF00;
+    background-color: #ffc70f;
     height: 100%;
     transition: all ease .5s;
 }
@@ -43,7 +43,7 @@ h1 {
 }
 
 .question {
-    color: #FFF;
+    color: rgb(49, 49, 49);
     font-size: 18px;
     margin: 20px 0;
 }
@@ -51,10 +51,10 @@ h1 {
     display: flex;
     align-items: center;
     height: 40px;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(206, 210, 255, 0.3);
     border-radius: 10px;
     margin-bottom: 5px;
-    color: #AAA;
+    color: rgb(24, 24, 24);
     font-size: 16px;
     cursor: pointer;
 }
@@ -67,11 +67,11 @@ h1 {
     border-radius: 15px;
     margin-left: 5px;
     margin-right: 10px;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(211, 211, 211, 0.8);
     color: #555;
 }
 .option:hover {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(28, 102, 240, 0.2);
 }
 
 .scoreArea {
@@ -87,10 +87,11 @@ h1 {
     margin-bottom: 10px;
 }
 .scoreText1 {
-    color: #000;
+    color: rgb(0, 26, 143);
     font-size: 23px;
     font-weight: bold;
     margin-bottom: 10px;
+    margin-top: 20px;
 }
 .scorePct {
     color: #0d630d;
@@ -107,18 +108,13 @@ h1 {
 .scoreArea button {
     border: 0;
     border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #CCC;
-    padding: 10px;
+    background-color: rgba(98, 165, 253, 0.5);
+    color: rgb(0, 0, 0);
+    padding: 20px;
     margin-top: 20px;
     cursor: pointer;
+    font-size: 20px;
 }
 .scoreArea button:hover {
-    background-color: rgba(0, 0, 0, 0.4);
-}
-
-footer {
-    margin-top: 20px;
-    color: #FFF;
-    font-size: 13px;
+    background-color: rgba(9, 57, 145, 0.4);
 }

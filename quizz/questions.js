@@ -29,12 +29,11 @@ let questions = [
     {
         question: 'Se Pedro é 10, José é 8 e Ana é 6, por essa mesma lógica Rutiele é:',
         options: [
-            '4',
             '10',
             '14',
             '24'
         ],
-        answer: 2
+        answer: 1
     },
     {
         question: 'Qual dessas comidas possui menos carboidrato a cada 100g?',
@@ -75,7 +74,7 @@ let questions = [
         answer: 1
     },
     {
-        question: 'Qual destes não é um filosofo Pré-Socraticofi',
+        question: 'Qual destes não é um filosofo Pré-Socratico',
         options: [
             'Euclides',
             'Pitagoras',
